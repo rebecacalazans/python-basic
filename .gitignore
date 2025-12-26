@@ -6,3 +6,4 @@ __pycache__/
 
 # Ignore configuration files
 config.py
+credentials.json

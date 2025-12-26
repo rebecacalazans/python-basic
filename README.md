@@ -25,3 +25,24 @@ REDIRECT_URI = "http://127.0.0.1:8888/callback"
 ### Spotify Developer Dashboard
 
 Ensure that the `REDIRECT_URI` in your `config.py` file is also added to the "Redirect URIs" list in your Spotify Developer Dashboard under your application's settings.
+
+---
+
+## The Digital Guestbook
+
+This project also includes `The Digital Guestbook.ipynb`, a Jupyter Notebook that demonstrates how to interact with a Google Sheet to create a digital guestbook.
+
+### How to Use the Notebook
+
+1.  **Open the Notebook:**
+    *   Open `The Digital Guestbook.ipynb` in a Jupyter environment (like Jupyter Lab or Visual Studio Code).
+
+2.  **Follow the Instructions:**
+    *   The notebook contains detailed instructions in the first markdown cell. Follow these instructions to:
+        *   Set up a Google Cloud Project.
+        *   Enable the required APIs.
+        *   Create a service account and download the JSON key.
+        *   Create a Google Sheet and share it with the service account.
+
+3.  **Run the Cells:**
+    *   Run the cells in the notebook in order. The notebook will guide you through installing the necessary libraries and running the guestbook application.
