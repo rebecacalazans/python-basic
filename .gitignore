@@ -1,0 +1,8 @@
+# Ignore cache files
+.ipynb_checkpoints/
+__pycache__/
+.cache
+.venv
+
+# Ignore configuration files
+config.py
